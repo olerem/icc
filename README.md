@@ -10,6 +10,8 @@ Examples of Interchip Chip Communication:
 - Nokia n900, linux/driver/hsi (p2p multiport)
 - SSI32 (p2p multiport)
 - I2CSec http://www.sciencedirect.com/science/article/pii/S1383762110001633
+- IC-USB https://en.wikipedia.org/wiki/InterChip_USB
+- TI HDQ? http://www.ti.com/lit/an/slua408a/slua408a.pdf
 
 
 Intra Chip Communication
