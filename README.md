@@ -11,6 +11,8 @@ Examples of Interchip Chip Communication:
 - I2CSec http://www.sciencedirect.com/science/article/pii/S1383762110001633
 - IC-USB https://en.wikipedia.org/wiki/InterChip_USB
 - TI HDQ? http://www.ti.com/lit/an/slua408a/slua408a.pdf
+- GSM.07.10 (gsmmux) linux/drivers/tty/n_gsm.c
+- 3964R/3964 + RK512 (Siemens?) linux/drivers/tty/n_r3964.c
 
 
 Intra Chip Communication
@@ -18,10 +20,12 @@ Intra Chip Communication
 
 -----------------------------------------------
 - Name,        HIF/PHY,       Transport
-- ath9k-htc,    USB,             HTC
+- ath9k-htc,    USB,             OSI2(HTC) + OSI3(WMI)
 - ath10k,       PCIe,            HTC
 - ath6kl,       SDIO,            HTC
 - n900,         OMAP HSI,        ???
+- n_gsm.c	TTY		 gsmmux
+- n_3964	TTY		OSI2 (3964r) + OSI3(RK512)
 
 
 What is the difference between plain master slave communication and ICC? Abstraction level?
