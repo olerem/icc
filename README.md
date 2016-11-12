@@ -13,6 +13,10 @@ Examples of Interchip Chip Communication:
 - TI HDQ? http://www.ti.com/lit/an/slua408a/slua408a.pdf
 - GSM.07.10 (gsmmux) linux/drivers/tty/n_gsm.c
 - 3964R/3964 + RK512 (Siemens?) linux/drivers/tty/n_r3964.c
+- LininoIO http://www.linino.org/wordpress/wp-content/uploads/2015/02/Fosdem_LininoIO.pdf
+- mcuIO https://github.com/linino/kernel_3.3.8/tree/master/drivers/mcuio
+	https://github.com/ciminaghi/bathos-mcuio
+- WeIO USB + ttyACM + UPER https://github.com/8devices/UPER/wiki/UPER-function-list
 
 
 Intra Chip Communication
