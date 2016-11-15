@@ -12,6 +12,8 @@ Possible client drivers:
 
 Information collection for different Interchip and Intra Chip communication
 
+TODO: 3946R, RK512, Modbus, IEC870, MEWTOCOL, AK, MPI, LSV2, Interbus, DeviceNet, MSV2:
+
 Examples of Interchip Chip Communication:
 - MCU to CPU bridge - Arduino Yún
 - EC to CPU on x86 platforms
@@ -21,7 +23,9 @@ Examples of Interchip Chip Communication:
 - IC-USB https://en.wikipedia.org/wiki/InterChip_USB
 - TI HDQ? http://www.ti.com/lit/an/slua408a/slua408a.pdf
 - GSM.07.10 (gsmmux) linux/drivers/tty/n_gsm.c
-- 3964R/3964 + RK512 (Siemens?) linux/drivers/tty/n_r3964.c
+- 3964R/3964  (Siemens?) linux/drivers/tty/n_r3964.c
+- RK512 https://support.industry.siemens.com/cs/document/12932189/differences-between-protocols-3964(r)-and-rk-512?dti=0&lc=en-WW
+- or 3964 + RK512?
 - LininoIO http://www.linino.org/wordpress/wp-content/uploads/2015/02/Fosdem_LininoIO.pdf
 - mcuIO https://github.com/linino/kernel_3.3.8/tree/master/drivers/mcuio
 	https://github.com/ciminaghi/bathos-mcuio
