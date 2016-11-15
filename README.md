@@ -1,6 +1,15 @@
 # icc
 inter chip communication
 
+Possible client drivers:
+- char (generic, do what you wont)
+- gpio extender
+- rtc
+- watchdog
+- CAN
+- rfkill
+
+
 Information collection for different Interchip and Intra Chip communication
 
 Examples of Interchip Chip Communication:
