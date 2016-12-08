@@ -25,7 +25,7 @@ Examples of Interchip Chip Communication:
 - GSM.07.10 (gsmmux) linux/drivers/tty/n_gsm.c
 - 3964R/3964  (Siemens?) linux/drivers/tty/n_r3964.c
 - RK512 https://support.industry.siemens.com/cs/document/12932189/differences-between-protocols-3964(r)-and-rk-512?dti=0&lc=en-WW
-- or 3964 + RK512?
+- or 3964 + RK512?  --- (- high overhead for simple p2p communication)
 - LininoIO http://www.linino.org/wordpress/wp-content/uploads/2015/02/Fosdem_LininoIO.pdf
 - mcuIO https://github.com/linino/kernel_3.3.8/tree/master/drivers/mcuio
 	https://github.com/ciminaghi/bathos-mcuio
