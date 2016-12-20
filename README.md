@@ -9,6 +9,11 @@ Possible client drivers:
 - CAN
 - rfkill
 
+Notest:
+- determenistic (to avoid real-time word).
+- async. Sync communication on linux is expensive. (async need timeout to responde. Async need timout to responde as well, why should we wait any way?)
+- agregation. most communications use tiny packets. tiny packets are very expensive.
+- queue. aggregation is possible only with a queue.
 
 Information collection for different Interchip and Intra Chip communication
 
