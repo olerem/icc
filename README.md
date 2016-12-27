@@ -35,6 +35,7 @@ Examples of Interchip Chip Communication:
 - mcuIO https://github.com/linino/kernel_3.3.8/tree/master/drivers/mcuio
 	https://github.com/ciminaghi/bathos-mcuio
 - WeIO USB + ttyACM + UPER https://github.com/8devices/UPER/wiki/UPER-function-list
+- Texas Instruments Shared Transport driver for UART: drivers/misc/ti-st/st_core.c
 
 
 Intra Chip Communication
