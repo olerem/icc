@@ -36,6 +36,10 @@ Examples of Interchip Chip Communication:
 	https://github.com/ciminaghi/bathos-mcuio
 - WeIO USB + ttyACM + UPER https://github.com/8devices/UPER/wiki/UPER-function-list
 - Texas Instruments Shared Transport driver for UART: drivers/misc/ti-st/st_core.c
+- CPU to Application CPU Interface:
+	https://www.kernel.org/doc/Documentation/networking/caif/Linux-CAIF.txt
+	http://lxr.free-electrons.com/source/drivers/net/caif/caif_serial.c#L393
+	https://lwn.net/Articles/371017/
 
 
 Intra Chip Communication
