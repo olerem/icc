@@ -42,8 +42,8 @@ Examples of Interchip Chip Communication:
 	https://lwn.net/Articles/371017/
 
 - ChromeOS EC multi-function device
-	https://chromium.googlesource.com/chromiumos/platform/ec/
-	https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/mfd/cros_ec.c
+	- https://chromium.googlesource.com/chromiumos/platform/ec/
+	- https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/mfd/cros_ec.c
 
 
 Intra Chip Communication
