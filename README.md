@@ -41,6 +41,10 @@ Examples of Interchip Chip Communication:
 	http://lxr.free-electrons.com/source/drivers/net/caif/caif_serial.c#L393
 	https://lwn.net/Articles/371017/
 
+- ChromeOS EC multi-function device
+	https://chromium.googlesource.com/chromiumos/platform/ec/
+	https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/mfd/cros_ec.c
+
 
 Intra Chip Communication
 - Different variants of Virtualisation
