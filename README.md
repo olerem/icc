@@ -2,14 +2,14 @@
 inter chip communication
 
 Possible client drivers:
-- char (generic, do what you wont)
+- char (generic, do what you want)
 - gpio extender
 - rtc
 - watchdog
 - CAN
 - rfkill
 
-Notest:
+Notes:
 - determenistic (to avoid real-time word).
 - async. Sync communication on linux is expensive. (async need timeout to responde. Async need timout to responde as well, why should we wait any way?)
 - agregation. most communications use tiny packets. tiny packets are very expensive.
